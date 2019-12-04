@@ -12,7 +12,10 @@ allure {
     useJUnit5 {
         version = '2.13.0' // Latest Allure Version
     }
-
+    
+    //Switch the download to Maven instead of dl.bintray.com
+	//downloadLink = 'https://dl.bintray.com/qameta/generic/io/qameta/allure/allure/2.1.1/allure-2.1.1.zip'
+	downloadLink = 'http://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.13.0/allure-commandline-2.13.0.zip'
 }
 
 group = 'hung-poc'
